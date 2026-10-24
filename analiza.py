@@ -1,4 +1,16 @@
 def podstawowe_statystyki(df):
+
+    """
+    Oblicza i wyświetla podstawowe statystyki danych pogodowych.
+
+    Args:
+        df (pandas.DataFrame | None):
+            Dane zawierające temperatury, wilgotność i opady.
+
+    Returns:
+        None: Funkcja wyświetla wyniki w konsoli.
+    """
+        
     if df is None or df.empty:
         print("Najpierw wczytaj dane z pliku CSV.")
         return
