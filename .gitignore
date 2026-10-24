@@ -1,0 +1,29 @@
+# Środowisko wirtualne
+.venv/
+
+# Pliki tymczasowe Pythona
+__pycache__/
+*.pyc
+
+# Pliki narzędzi testujących
+.pytest_cache/
+.ruff_cache/
+
+# Lokalne bazy danych
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Logi aplikacji
+logs/
+
+# Wygenerowane wyniki
+results/
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# moje pliki
+pep8.txt
+test.txt
