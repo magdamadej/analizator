@@ -5,6 +5,20 @@ Aplikacja konsolowa napisana w języku Python, przeznaczona do wczytywania, anal
 
 Projekt powstał w ramach szkolenia **„Projektowanie i programowanie aplikacji w Pythonie dla kadry akademickiej i doktorantów”**.
 
+
+## Spis treści
+
+1. [Funkcjonalności](#1-funkcjonalności)
+2. [Wykorzystane technologie](#2-wykorzystane-technologie)
+3. [Struktura projektu](#3-struktura-projektu)
+4. [Instalacja](#4-instalacja)
+5. [Uruchamianie aplikacji](#5-uruchamianie-aplikacji)
+6. [Analiza danych](#6-analiza-danych)
+7. [Testowanie](#7-testowanie)
+8. [Kontrola jakości kodu](#8-kontrola-jakości-kodu)
+9. [Automatyzacja CI](#9-automatyzacja-ci)
+10. [Zastosowanie](#10-zastosowanie)
+
 ## 1. Funkcjonalności
 
 Aplikacja umożliwia:
