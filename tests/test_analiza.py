@@ -24,7 +24,7 @@ def test_podstawowe_statystyki(capsys):
 
     wynik = capsys.readouterr().out
 
-    assert "Liczba pomiarów: 999" in wynik
+    assert "Liczba pomiarów: 2" in wynik
     assert "Średnia temperatura maksymalna: 22.00 °C" in wynik
     assert "Średnia temperatura minimalna: 11.00 °C" in wynik
     assert "Średnia wilgotność: 70.00 %" in wynik
