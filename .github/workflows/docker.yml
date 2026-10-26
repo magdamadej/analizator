@@ -1,4 +1,5 @@
-name: Budowanie obrazu Docker
+
+name: Budowanie i uruchamianie Docker
 
 on:
   workflow_dispatch:
@@ -13,3 +14,12 @@ jobs:
 
       - name: Budowanie obrazu
         run: docker build -t research-analyzer .
+
+      - name: Uruchomienie aplikacji
+        run: echo "0" | docker run -i --name analyzer-test research-analyzer
+
+      - name: Wyświetlenie logów aplikacji
+        if: always()
+        run: |
+          docker cp analyzer-test:/app/logs/app.log ./app.log
+          cat app.log
