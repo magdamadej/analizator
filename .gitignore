@@ -27,3 +27,8 @@ Thumbs.db
 # moje pliki
 pep8.txt
 test.txt
+
+# inne katalogi
+dist/
+build/
+*.egg-info/
